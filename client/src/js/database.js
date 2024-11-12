@@ -9,9 +9,9 @@ const dbPromise = openDB('my-database', 1, {
   },
 });
 
-export const openDB = async () => {
-  return dbPromise;
-};
+// export const openDB = async () => {
+//   return dbPromise;
+// };
 
 const initdb = async () =>
   openDB('jate', 1, {
